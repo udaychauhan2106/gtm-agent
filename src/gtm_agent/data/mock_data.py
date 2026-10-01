@@ -46,5 +46,56 @@ companies = {
         location="Pune, India",
     ),
 }
-contacts = {}
+contacts = {
+    1: Contact(
+        id=1,
+        first_name="Rahul",
+        last_name="Sharma",
+        email="rahul.sharma@acme.example.com",
+        phone="+91-9876543210",
+        company_id=1,
+        job_title="Head of Sales",
+        linkedin_url="https://linkedin.com/in/rahul-sharma",
+    ),
+    2: Contact(
+        id=2,
+        first_name="Priya",
+        last_name="Mehta",
+        email="priya.mehta@novahealth.example.com",
+        phone="+91-9876543211",
+        company_id=2,
+        job_title="VP of Operations",
+        linkedin_url="https://linkedin.com/in/priya-mehta",
+    ),
+    3: Contact(
+        id=3,
+        first_name="Arjun",
+        last_name="Patel",
+        email="arjun.patel@finedge.example.com",
+        phone="+91-9876543212",
+        company_id=3,
+        job_title="CTO",
+        linkedin_url="https://linkedin.com/in/arjun-patel",
+    ),
+    4: Contact(
+        id=4,
+        first_name="Neha",
+        last_name="Verma",
+        email="neha.verma@greengrid.example.com",
+        phone="+91-9876543213",
+        company_id=4,
+        job_title="Chief Growth Officer",
+        linkedin_url="https://linkedin.com/in/neha-verma",
+    ),
+    5: Contact(
+        id=5,
+        first_name="Vikram",
+        last_name="Singh",
+        email="vikram.singh@cloudstack.example.com",
+        phone="+91-9876543214",
+        company_id=5,
+        job_title="Director of Engineering",
+        linkedin_url="https://linkedin.com/in/vikram-singh",
+    ),
+}
 leads = {}

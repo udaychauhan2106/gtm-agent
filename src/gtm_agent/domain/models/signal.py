@@ -17,7 +17,7 @@ class SignalType(str, Enum):
 
 class Signal(BaseModel):
     type: SignalType    
-    sources: list[Source] = Field(default_factory=list,min_items=1, description="Sources of the signal")
+    sources: list[Source] = Field(default_factory=list,min_length=1, description="Sources of the signal")
     claim: str = Field(..., description="Claim of the signal")
     evidence: str = Field(..., description="Evidence of the signal")
     detected_at: datetime.datetime

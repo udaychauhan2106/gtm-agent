@@ -6,3 +6,4 @@ def test_company():
     assert company.id == 1
     assert company.name == "Google"
     assert company.website == "https://www.google.com"
+    assert company.metadata == {}
